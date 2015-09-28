@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+#Add pagination 
+gem 'will_paginate',  '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
+
 #Add bootstrap 
 gem 'bootstrap-sass', '~> 3.3.0'
 

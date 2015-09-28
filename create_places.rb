@@ -1,3 +1,4 @@
+
 Place.create(name:"Bwindi impenetrable national park", description:"mist-covered hillsides",
                address:"southwestern Uganda" )
 Place.create(name:"Kibale national park", description:"contains one of the loveliest and most varied tracts of tropical forest in Uganda",
