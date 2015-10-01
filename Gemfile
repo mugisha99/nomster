@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#add simple form
+gem 'simple_form'
+
 #Add pagination 
 gem 'will_paginate',  '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
