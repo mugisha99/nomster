@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#add device for user auth
+gem 'devise', '>=3.2.4'
+
 #add simple form
 gem 'simple_form'
 
