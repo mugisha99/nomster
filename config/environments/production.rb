@@ -2,7 +2,7 @@ Nomster::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   #set-up for devise
-  config.action_mailer.defaul_url_options = {:host => 'nomster-mugisha.herokuapp.com'}
+  config.action_mailer.default_url_options = {:host => 'nomster-mugisha.herokuapp.com'}
 
 
   # Code is not reloaded between requests.
