@@ -1,5 +1,11 @@
 source 'https://rubygems.org'
 
+#add figaro for setting env variables
+gem "figaro", ">= 1.0.0"
+
+#add geocoding gem
+gem "geocoder"
+
 #add device for user auth
 gem 'devise', '>=3.2.4'
 
