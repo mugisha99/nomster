@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#add gem used by carrierview to access Amazon S3
+gem "fog", "~> 1.3.1"
+
 #add gem for image upload
 gem "carrierwave"
 
