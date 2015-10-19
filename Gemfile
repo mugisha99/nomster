@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#add gem for image upload
+gem "carrierwave"
+
 #add figaro for setting env variables
 gem "figaro", ">= 1.0.0"
 
