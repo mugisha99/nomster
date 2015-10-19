@@ -25,6 +25,7 @@
 	</div>
 	<% @place.photos.each do |photo| %>
 		<p><%= photo.caption %></p>
+		<p><%= image_tag photo.picture %></p>
 	<% end %>
 
 
@@ -35,6 +36,8 @@
 <!--Form to insert pictures will be here -->
 <%= simple_form_for @photo, :url=>place_photos_path(@place)  do |f| %>
 	<%= f.input :caption %>
+	<%= f.input :picture %>
+
 	<%= f.submit "Upload the picture", :class=>'btn btn-primary' %>
 <% end %>
 
