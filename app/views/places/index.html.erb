@@ -1,4 +1,5 @@
 
+<%= render 'places/carousel' %>
 <% @places.each do |place| %>
 <div class="booyah-box">
 	<h1><%= link_to place.name, place_path(place) %> </h1> <br />
